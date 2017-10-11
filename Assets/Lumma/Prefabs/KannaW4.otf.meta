@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: e86dc6f899ccda24891ac1b45a8af70e
+timeCreated: 1504291301
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Kanna-W4
+  fontNames:
+  - Kanna-W4
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
