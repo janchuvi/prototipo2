@@ -144,14 +144,14 @@ public class Player : MonoBehaviour
             SceneManager.LoadScene("StartScreen");
         }
         StartCoroutine(calcSpeed());
-        if (rotar == true)
+    /*    if (rotar == true)
         {
             Invoke("RotateCamera", 3);
         }
         else
         {
             RotateCameraBack();
-        }
+        }*/
 
         if (Input.GetKeyDown(KeyCode.Escape))
             Application.Quit();
@@ -167,7 +167,7 @@ public class Player : MonoBehaviour
    
          //   if (gameObject.name == "Player3" || gameObject.name == "Player1")
            // {
-                if (rightArm.localRotation.y > -0.2f && leftArm.localRotation.y < 0.2f)
+                if (rightArm.localRotation.y > -0.2f || leftArm.localRotation.y < 0.2f)
                 {
                     personaje.transform.Translate(Vector3.forward * Time.deltaTime * velocidad);
                     MaxTurbines(0.55f);

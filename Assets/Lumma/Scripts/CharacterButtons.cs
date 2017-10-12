@@ -19,25 +19,25 @@ public class CharacterButtons : ClickeableButton
         if (Input.GetKeyDown(KeyCode.Keypad1)&& this.gameObject.name == "Character1")
         {
             controller.SetSelectedPlayer(player);
-            particle.SetActive(true);
+           // particle.SetActive(true);
         }
         else if (Input.GetKeyDown(KeyCode.Keypad2) && this.gameObject.name == "Character2")
         {
             controller.SetSelectedPlayer(player);
-            particle.SetActive(true);
+          //  particle.SetActive(true);
 
         }
         else if (Input.GetKeyDown(KeyCode.Keypad0) && this.gameObject.name == "Character3")
         {
             controller.SetSelectedPlayer(player);
-            particle.SetActive(true);
+         //   particle.SetActive(true);
 
         }
     }
     protected override void OnClick()
     {
         controller.SetSelectedPlayer(player);
-        particle.SetActive(true);
+      //  particle.SetActive(true);
         Debug.Log("lalalaalla");
     }
 

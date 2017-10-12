@@ -1,0 +1,903 @@
+fileFormatVersion: 2
+guid: cb2ada1c60b89fa47879e1fc49430ccc
+timeCreated: 1507812505
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Alien
+    100002: //RootNode
+    100004: Base AlienHead
+    100006: Base AlienLCalf
+    100008: Base AlienLCollarbone
+    100010: Base AlienLDigit11
+    100012: Base AlienLDigit12
+    100014: Base AlienLDigit21
+    100016: Base AlienLDigit22
+    100018: Base AlienLDigit23
+    100020: Base AlienLDigit31
+    100022: Base AlienLDigit32
+    100024: Base AlienLDigit33
+    100026: Base AlienLDigit41
+    100028: Base AlienLDigit42
+    100030: Base AlienLDigit43
+    100032: Base AlienLDigit51
+    100034: Base AlienLDigit52
+    100036: Base AlienLDigit53
+    100038: Base AlienLFoot
+    100040: Base AlienLForearm
+    100042: Base AlienLPalm
+    100044: Base AlienLPlatform
+    100046: Base AlienLThigh
+    100048: Base AlienLUpperarm
+    100050: Base AlienNeck1
+    100052: Base AlienNeck2
+    100054: Base AlienPelvis
+    100056: Base AlienRCalf
+    100058: Base AlienRCollarbone
+    100060: Base AlienRDigit11
+    100062: Base AlienRDigit12
+    100064: Base AlienRDigit21
+    100066: Base AlienRDigit22
+    100068: Base AlienRDigit23
+    100070: Base AlienRDigit31
+    100072: Base AlienRDigit32
+    100074: Base AlienRDigit33
+    100076: Base AlienRDigit41
+    100078: Base AlienRDigit42
+    100080: Base AlienRDigit43
+    100082: Base AlienRDigit51
+    100084: Base AlienRDigit52
+    100086: Base AlienRDigit53
+    100088: Base AlienRFoot
+    100090: Base AlienRForearm
+    100092: Base AlienRibcage
+    100094: Base AlienRPalm
+    100096: Base AlienRPlatform
+    100098: Base AlienRThigh
+    100100: Base AlienRUpperarm
+    100102: Base AlienSpine1
+    100104: Base AlienSpine2
+    100106: Base AlienSpine3
+    100108: Base AlienSpine4
+    100110: Base AlienTail1
+    100112: Base AlienTail2
+    100114: Base AlienTail3
+    100116: Base AlienTail4
+    100118: Sphere001
+    100120: Sphere002
+    400000: Alien
+    400002: //RootNode
+    400004: Base AlienHead
+    400006: Base AlienLCalf
+    400008: Base AlienLCollarbone
+    400010: Base AlienLDigit11
+    400012: Base AlienLDigit12
+    400014: Base AlienLDigit21
+    400016: Base AlienLDigit22
+    400018: Base AlienLDigit23
+    400020: Base AlienLDigit31
+    400022: Base AlienLDigit32
+    400024: Base AlienLDigit33
+    400026: Base AlienLDigit41
+    400028: Base AlienLDigit42
+    400030: Base AlienLDigit43
+    400032: Base AlienLDigit51
+    400034: Base AlienLDigit52
+    400036: Base AlienLDigit53
+    400038: Base AlienLFoot
+    400040: Base AlienLForearm
+    400042: Base AlienLPalm
+    400044: Base AlienLPlatform
+    400046: Base AlienLThigh
+    400048: Base AlienLUpperarm
+    400050: Base AlienNeck1
+    400052: Base AlienNeck2
+    400054: Base AlienPelvis
+    400056: Base AlienRCalf
+    400058: Base AlienRCollarbone
+    400060: Base AlienRDigit11
+    400062: Base AlienRDigit12
+    400064: Base AlienRDigit21
+    400066: Base AlienRDigit22
+    400068: Base AlienRDigit23
+    400070: Base AlienRDigit31
+    400072: Base AlienRDigit32
+    400074: Base AlienRDigit33
+    400076: Base AlienRDigit41
+    400078: Base AlienRDigit42
+    400080: Base AlienRDigit43
+    400082: Base AlienRDigit51
+    400084: Base AlienRDigit52
+    400086: Base AlienRDigit53
+    400088: Base AlienRFoot
+    400090: Base AlienRForearm
+    400092: Base AlienRibcage
+    400094: Base AlienRPalm
+    400096: Base AlienRPlatform
+    400098: Base AlienRThigh
+    400100: Base AlienRUpperarm
+    400102: Base AlienSpine1
+    400104: Base AlienSpine2
+    400106: Base AlienSpine3
+    400108: Base AlienSpine4
+    400110: Base AlienTail1
+    400112: Base AlienTail2
+    400114: Base AlienTail3
+    400116: Base AlienTail4
+    400118: Sphere001
+    400120: Sphere002
+    4300000: Alien
+    4300002: Sphere001
+    4300004: Sphere002
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Alien
+    13700002: Sphere001
+    13700004: Sphere002
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: Base AlienPelvis
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Base AlienLThigh
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Base AlienRThigh
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Base AlienLCalf
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Base AlienRCalf
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Base AlienLFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Base AlienRFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Base AlienSpine1
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Base AlienSpine2
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Base AlienNeck1
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Base AlienHead
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Base AlienLCollarbone
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Base AlienRCollarbone
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Base AlienLUpperarm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Base AlienRUpperarm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Base AlienLForearm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Base AlienRForearm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Base AlienLPalm
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Base AlienRPalm
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Base AlienLDigit11
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Base AlienLDigit12
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Base AlienLDigit21
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Base AlienLDigit22
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Base AlienLDigit23
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Base AlienLDigit31
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Base AlienLDigit32
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Base AlienLDigit33
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Base AlienLDigit41
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Base AlienLDigit42
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Base AlienLDigit43
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Base AlienLDigit51
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Base AlienLDigit52
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Base AlienLDigit53
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Base AlienRDigit11
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Base AlienRDigit12
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Base AlienRDigit21
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Base AlienRDigit22
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Base AlienRDigit23
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Base AlienRDigit31
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Base AlienRDigit32
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Base AlienRDigit33
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Base AlienRDigit41
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Base AlienRDigit42
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Base AlienRDigit43
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Base AlienRDigit51
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Base AlienRDigit52
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Base AlienRDigit53
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Base AlienSpine3
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Alien1(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Alien
+      parentName: Alien1(Clone)
+      position: {x: -0.000013195276, y: 0.69159895, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 3.0489895, y: 3.0489895, z: 3.0489895}
+    - name: Base AlienLPlatform
+      parentName: Alien1(Clone)
+      position: {x: -0.20293488, y: -0.0000000015800999, z: -0.020306692}
+      rotation: {x: 0.5619451, y: -0.5619449, z: -0.42920604, w: 0.42920613}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Base AlienRPlatform
+      parentName: Alien1(Clone)
+      position: {x: 0.20293488, y: -0.0000000015801107, z: -0.02030663}
+      rotation: {x: 0.4292062, y: -0.4292061, z: -0.56194484, w: 0.56194496}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Sphere001
+      parentName: Alien1(Clone)
+      position: {x: 0.04760784, y: 1.2573771, z: 0.04554899}
+      rotation: {x: 0.00000008146034, y: -0, z: -0, w: 1}
+      scale: {x: 0.19954035, y: 0.19954035, z: 0.19954035}
+    - name: Sphere002
+      parentName: Alien1(Clone)
+      position: {x: -0.04760738, y: 1.2573771, z: 0.04554899}
+      rotation: {x: 0.00000008146034, y: -0, z: -0, w: 1}
+      scale: {x: 0.19954035, y: 0.19954035, z: 0.19954035}
+    - name: Base AlienPelvis
+      parentName: Alien1(Clone)
+      position: {x: 0.00000003607309, y: 0.694855, z: -0.046314582}
+      rotation: {x: 0.49912265, y: -0.50086725, z: -0.4991312, w: 0.5008759}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Base AlienSpine1
+      parentName: Base AlienPelvis
+      position: {x: -0.03443863, y: -0.0026349162, z: -0.000000006539412}
+      rotation: {x: 0.000000008536066, y: -0.000000039855856, z: -0.14865482, w: 0.98888916}
+      scale: {x: 1.0000005, y: 1.0000005, z: 1}
+    - name: Base AlienSpine2
+      parentName: Base AlienSpine1
+      position: {x: -0.09916862, y: 0, z: 7.2759575e-14}
+      rotation: {x: -0.000000008736271, y: 0.000000046403922, z: 0.17011698, w: 0.98542386}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1.0000001}
+    - name: Base AlienSpine3
+      parentName: Base AlienSpine2
+      position: {x: -0.08447845, y: 0.0000000023841857, z: -7.2759575e-14}
+      rotation: {x: -7.1786427e-10, y: 0.0000000063793952, z: 0.0846898, w: 0.9964074}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.0000001}
+    - name: Base AlienSpine4
+      parentName: Base AlienSpine3
+      position: {x: -0.090782695, y: -0.000000019073486, z: 0}
+      rotation: {x: -1.7733165e-10, y: -0.0000000163049, z: -0.0868942, w: 0.99621755}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Base AlienRibcage
+      parentName: Base AlienSpine4
+      position: {x: -0.12233276, y: 0, z: 7.2759575e-14}
+      rotation: {x: 4.5528886e-10, y: 0.000000022469907, z: -0.021270758, w: 0.99977374}
+      scale: {x: 0.999999, y: 0.99999875, z: 0.99999976}
+    - name: Base AlienRCollarbone
+      parentName: Base AlienRibcage
+      position: {x: 0.024457626, y: 0.039075926, z: -0.022690693}
+      rotation: {x: -0.04291488, y: -0.7667357, z: 0.117036596, w: 0.62974375}
+      scale: {x: 0.9999997, y: 1.0000001, z: 1.0000005}
+    - name: Base AlienRUpperarm
+      parentName: Base AlienRCollarbone
+      position: {x: -0.123743095, y: 0, z: 0.000000076293944}
+      rotation: {x: -0.046134748, y: 0.083748244, z: -0.11264651, w: 0.9890241}
+      scale: {x: 0.9999996, y: 1.0000005, z: 1.0000001}
+    - name: Base AlienRForearm
+      parentName: Base AlienRUpperarm
+      position: {x: -0.17041466, y: 0, z: 0}
+      rotation: {x: -0.090752915, y: -0.009154901, z: -0.027914587, w: 0.99544007}
+      scale: {x: 1.0000006, y: 0.99999976, z: 0.99999875}
+    - name: Base AlienRPalm
+      parentName: Base AlienRForearm
+      position: {x: -0.1952546, y: 0, z: -0.000000038146972}
+      rotation: {x: 0.7485309, y: 0.0025940393, z: 0.0920484, w: 0.65667486}
+      scale: {x: 1.0000031, y: 0.99999857, z: 0.99999803}
+    - name: Base AlienRDigit11
+      parentName: Base AlienRPalm
+      position: {x: -0.022721175, y: -0.0151767535, z: -0.027719501}
+      rotation: {x: -0.07619115, y: -0.41336843, z: 0.014317178, w: 0.9072577}
+      scale: {x: 1.0000063, y: 0.999995, z: 0.9999979}
+    - name: Base AlienRDigit12
+      parentName: Base AlienRDigit11
+      position: {x: -0.036168326, y: 0.000000019073486, z: 0}
+      rotation: {x: -0.07390086, y: 0.05698415, z: 0.12577724, w: 0.98765963}
+      scale: {x: 1.0000042, y: 0.99999535, z: 1.0000004}
+    - name: Base AlienRDigit21
+      parentName: Base AlienRPalm
+      position: {x: -0.0734568, y: 0.000000019073486, z: -0.03045269}
+      rotation: {x: -0.00000004568231, y: -0.07695191, z: 0.000000001144651, w: 0.9970348}
+      scale: {x: 1.0000032, y: 0.9999969, z: 0.99999946}
+    - name: Base AlienRDigit22
+      parentName: Base AlienRDigit21
+      position: {x: -0.024424171, y: -0.000000019073486, z: 0}
+      rotation: {x: 0.000000089282, y: 0.0000012442466, z: 0.040303364, w: 0.99918747}
+      scale: {x: 1.0000031, y: 0.9999966, z: 0.9999995}
+    - name: Base AlienRDigit23
+      parentName: Base AlienRDigit22
+      position: {x: -0.01904152, y: 0, z: -0.000000009536743}
+      rotation: {x: 0.00000008137818, y: -0.000000019644741, z: 0.12676531, w: 0.99193275}
+      scale: {x: 1.0000044, y: 0.999996, z: 0.9999998}
+    - name: Base AlienRDigit41
+      parentName: Base AlienRPalm
+      position: {x: -0.07322063, y: -0.0001737976, z: 0.014080002}
+      rotation: {x: 0.00000007642407, y: -0.0056006936, z: -0.00024780052, w: 0.9999843}
+      scale: {x: 1.0000036, y: 0.99999624, z: 0.99999946}
+    - name: Base AlienRDigit42
+      parentName: Base AlienRDigit41
+      position: {x: -0.020461997, y: -0.000000019073486, z: -0.0000000047683715}
+      rotation: {x: 0.002452105, y: 0.0002955509, z: 0.028536152, w: 0.99958974}
+      scale: {x: 1.0000077, y: 0.9999922, z: 0.99999946}
+    - name: Base AlienRDigit43
+      parentName: Base AlienRDigit42
+      position: {x: -0.020701827, y: -0.000000019073486, z: 0}
+      rotation: {x: 0.00046086154, y: 0.0024114714, z: 0.18785931, w: 0.9821929}
+      scale: {x: 1.0000064, y: 0.9999936, z: 0.9999996}
+    - name: Base AlienRDigit51
+      parentName: Base AlienRPalm
+      position: {x: -0.06974037, y: -0.004604015, z: 0.02939934}
+      rotation: {x: 0.0545392, y: -0.012417455, z: 0.052754477, w: 0.9970398}
+      scale: {x: 1.0000032, y: 0.9999966, z: 0.99999994}
+    - name: Base AlienRDigit52
+      parentName: Base AlienRDigit51
+      position: {x: -0.013203583, y: 0, z: 0.000000009536743}
+      rotation: {x: 0.039908607, y: -0.005509615, z: 0.028830519, w: 0.9987722}
+      scale: {x: 1.0000051, y: 0.9999943, z: 0.9999999}
+    - name: Base AlienRDigit53
+      parentName: Base AlienRDigit52
+      position: {x: -0.0142291635, y: 0, z: 0}
+      rotation: {x: -0.026302062, y: -0.018574767, z: 0.14576903, w: 0.9887945}
+      scale: {x: 1.0000032, y: 0.99999607, z: 1.0000001}
+    - name: Base AlienRDigit31
+      parentName: Base AlienRPalm
+      position: {x: -0.0734568, y: 0, z: -0.0101508945}
+      rotation: {x: -0.00000003329489, y: 0.000000029802228, z: 0.000000016763755,
+        w: 1}
+      scale: {x: 1.0000031, y: 0.9999969, z: 0.9999995}
+    - name: Base AlienRDigit32
+      parentName: Base AlienRDigit31
+      position: {x: -0.027950592, y: 0, z: 0}
+      rotation: {x: 0.00000018130395, y: -0.0000008169217, z: 0.033029377, w: 0.9994544}
+      scale: {x: 1.000005, y: 0.9999948, z: 0.99999964}
+    - name: Base AlienRDigit33
+      parentName: Base AlienRDigit32
+      position: {x: -0.022754822, y: 0.000000019073486, z: 0}
+      rotation: {x: 0.0000000115871925, y: -0.000000017303625, z: 0.12607059, w: 0.99202126}
+      scale: {x: 1.0000044, y: 0.999996, z: 0.99999976}
+    - name: Base AlienLCollarbone
+      parentName: Base AlienRibcage
+      position: {x: 0.024457626, y: 0.039075937, z: 0.02269069}
+      rotation: {x: 0.04291486, y: 0.7667357, z: 0.11703658, w: 0.62974375}
+      scale: {x: 0.99999976, y: 1, z: 1.0000002}
+    - name: Base AlienLUpperarm
+      parentName: Base AlienLCollarbone
+      position: {x: -0.12374308, y: -0.000000009536743, z: 0}
+      rotation: {x: 0.04613472, y: -0.08374845, z: -0.112646505, w: 0.98902404}
+      scale: {x: 0.99999976, y: 1.0000002, z: 1}
+    - name: Base AlienLForearm
+      parentName: Base AlienLUpperarm
+      position: {x: -0.17041466, y: 0, z: 0.000000038146972}
+      rotation: {x: 0.09075309, y: 0.009154922, z: -0.027914807, w: 0.99544007}
+      scale: {x: 0.99999875, y: 0.9999999, z: 1.000001}
+    - name: Base AlienLPalm
+      parentName: Base AlienLForearm
+      position: {x: -0.19525474, y: 0.000000009536743, z: 0.000000038146972}
+      rotation: {x: -0.74853086, y: -0.0025940123, z: 0.09204792, w: 0.65667504}
+      scale: {x: 0.99999696, y: 1.0000026, z: 1.0000011}
+    - name: Base AlienLDigit11
+      parentName: Base AlienLPalm
+      position: {x: -0.022721022, y: -0.015176849, z: 0.027719617}
+      rotation: {x: 0.076189846, y: 0.41336697, z: 0.014312903, w: 0.9072585}
+      scale: {x: 0.9999929, y: 1.0000052, z: 1.0000019}
+    - name: Base AlienLDigit12
+      parentName: Base AlienLDigit11
+      position: {x: -0.03616829, y: -0.000000019073486, z: 0.000000038146972}
+      rotation: {x: 0.07390095, y: -0.056983307, z: 0.12577389, w: 0.9876601}
+      scale: {x: 0.9999958, y: 1.0000049, z: 0.99999934}
+    - name: Base AlienLDigit21
+      parentName: Base AlienLPalm
+      position: {x: -0.0734563, y: 0, z: 0.03045286}
+      rotation: {x: 0.000000047788433, y: 0.07695121, z: -0.00000003824984, w: 0.99703485}
+      scale: {x: 0.9999968, y: 1.000003, z: 1.0000004}
+    - name: Base AlienLDigit22
+      parentName: Base AlienLDigit21
+      position: {x: -0.024424208, y: 0, z: 0.000000009536743}
+      rotation: {x: -0.0000000010419006, y: 0.0000012591478, z: 0.040303335, w: 0.9991875}
+      scale: {x: 0.99999666, y: 1.0000031, z: 1.0000004}
+    - name: Base AlienLDigit23
+      parentName: Base AlienLDigit22
+      position: {x: -0.01904152, y: 0.000000019073486, z: 0}
+      rotation: {x: 0.000000009279337, y: -0.000000013836578, z: 0.1267609, w: 0.9919333}
+      scale: {x: 0.999996, y: 1.0000046, z: 1.0000006}
+    - name: Base AlienLDigit31
+      parentName: Base AlienLPalm
+      position: {x: -0.073456384, y: 0, z: 0.010150952}
+      rotation: {x: 0.00000004307354, y: -0.000000009313254, z: -0.00000001210723,
+        w: 1}
+      scale: {x: 0.99999696, y: 1.000003, z: 1.0000002}
+    - name: Base AlienLDigit32
+      parentName: Base AlienLDigit31
+      position: {x: -0.027950516, y: -0.000000019073486, z: 0}
+      rotation: {x: 0.0000002254784, y: -0.000000011155383, z: 0.03302534, w: 0.99945456}
+      scale: {x: 0.9999946, y: 1.0000052, z: 1.0000002}
+    - name: Base AlienLDigit33
+      parentName: Base AlienLDigit32
+      position: {x: -0.022754783, y: 0, z: 0}
+      rotation: {x: 0.000000026072925, y: 0.000000016456775, z: 0.12606604, w: 0.99202186}
+      scale: {x: 0.9999959, y: 1.0000044, z: 1.0000005}
+    - name: Base AlienLDigit41
+      parentName: Base AlienLPalm
+      position: {x: -0.07322018, y: -0.00017377854, z: -0.014080062}
+      rotation: {x: -0.00000023543296, y: 0.0056006173, z: -0.00024782566, w: 0.9999843}
+      scale: {x: 0.99999636, y: 1.0000037, z: 1.0000005}
+    - name: Base AlienLDigit42
+      parentName: Base AlienLDigit41
+      position: {x: -0.020461997, y: -0.000000019073486, z: -0.0000000023841857}
+      rotation: {x: -0.0024515842, y: -0.00029543354, z: 0.028530523, w: 0.99958986}
+      scale: {x: 0.9999917, y: 1.0000086, z: 1.0000004}
+    - name: Base AlienLDigit43
+      parentName: Base AlienLDigit42
+      position: {x: -0.020701827, y: 0, z: 0.0000000023841857}
+      rotation: {x: -0.000460725, y: -0.002411319, z: 0.18785208, w: 0.9821943}
+      scale: {x: 0.9999935, y: 1.0000069, z: 1.0000005}
+    - name: Base AlienLDigit51
+      parentName: Base AlienLPalm
+      position: {x: -0.06973983, y: -0.0046040723, z: -0.02939951}
+      rotation: {x: -0.054539245, y: 0.012420988, z: 0.05275437, w: 0.99703974}
+      scale: {x: 0.99999666, y: 1.0000033, z: 1}
+    - name: Base AlienLDigit52
+      parentName: Base AlienLDigit51
+      position: {x: -0.013203659, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.039907366, y: 0.0055061085, z: 0.028824642, w: 0.99877244}
+      scale: {x: 0.9999946, y: 1.0000064, z: 0.9999999}
+    - name: Base AlienLDigit53
+      parentName: Base AlienLDigit52
+      position: {x: -0.014229087, y: -0.000000019073486, z: 0}
+      rotation: {x: 0.026302414, y: 0.018574426, z: 0.14576465, w: 0.98879516}
+      scale: {x: 0.99999654, y: 1.000004, z: 0.9999998}
+    - name: Base AlienNeck1
+      parentName: Base AlienRibcage
+      position: {x: -0.0005982971, y: -0.0026349162, z: -0.000000005060283}
+      rotation: {x: 0.0000000011856487, y: -0.000000005546909, z: -0.105424106, w: 0.9944274}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: Base AlienNeck2
+      parentName: Base AlienNeck1
+      position: {x: -0.047734298, y: 0.000000019073486, z: 7.2759575e-14}
+      rotation: {x: -1.0835776e-13, y: 2.3447913e-13, z: -0.0000000074505815, w: 1}
+      scale: {x: 0.9999999, y: 1, z: 0.99999994}
+    - name: Base AlienHead
+      parentName: Base AlienNeck2
+      position: {x: -0.047734372, y: -0.000000019073486, z: 7.2759575e-14}
+      rotation: {x: -0.0000000022921054, y: 0.000000016366402, z: 0.10542408, w: 0.9944274}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Base AlienRThigh
+      parentName: Base AlienPelvis
+      position: {x: -0.012973327, y: 0.03537301, z: -0.06628067}
+      rotation: {x: 0.017154807, y: 0.9956014, z: 0.0092634, w: -0.091639094}
+      scale: {x: 1.0000017, y: 0.9999987, z: 1.0000002}
+    - name: Base AlienRCalf
+      parentName: Base AlienRThigh
+      position: {x: -0.31766582, y: 0.000000019073486, z: -0.000000019073486}
+      rotation: {x: -0.00017686645, y: -0.010683975, z: 0.06692101, w: 0.99770105}
+      scale: {x: 1.0000107, y: 0.9999866, z: 1.0000027}
+    - name: Base AlienRFoot
+      parentName: Base AlienRCalf
+      position: {x: -0.37927613, y: 0, z: -0.000000019073486}
+      rotation: {x: 0.16323073, y: 0.012060977, z: -0.6637539, w: 0.7298226}
+      scale: {x: 1.0000256, y: 0.9999735, z: 1.0000007}
+    - name: Base AlienLThigh
+      parentName: Base AlienPelvis
+      position: {x: -0.012973404, y: 0.03537301, z: 0.06628066}
+      rotation: {x: 0.01725698, y: 0.99560523, z: -0.009249693, w: 0.09158004}
+      scale: {x: 0.99999875, y: 1.0000015, z: 1.0000006}
+    - name: Base AlienLCalf
+      parentName: Base AlienLThigh
+      position: {x: -0.31766585, y: 0.0000000166893, z: 0.000000019073486}
+      rotation: {x: 0.0001848814, y: 0.010519914, z: 0.06663936, w: 0.9977217}
+      scale: {x: 0.9999869, y: 1.0000106, z: 1.0000025}
+    - name: Base AlienLFoot
+      parentName: Base AlienLCalf
+      position: {x: -0.37927908, y: -0.000000009536743, z: 0}
+      rotation: {x: -0.16325866, y: -0.011979617, z: -0.6636528, w: 0.72990966}
+      scale: {x: 0.99997437, y: 1.0000255, z: 1.0000002}
+    - name: Base AlienTail1
+      parentName: Base AlienPelvis
+      position: {x: -0.030549621, y: -0.06413915, z: 0.0000000046097557}
+      rotation: {x: 0.000000002753963, y: 0.000000006044985, z: 0.91311413, w: 0.407704}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: Base AlienTail2
+      parentName: Base AlienTail1
+      position: {x: -0.11847067, y: 0, z: 5.0931704e-13}
+      rotation: {x: 0.00000001353309, y: 0.000000009613092, z: 0.19846222, w: 0.98010856}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+    - name: Base AlienTail3
+      parentName: Base AlienTail2
+      position: {x: -0.16174625, y: -0.000000038146972, z: 4.3655745e-13}
+      rotation: {x: -0.0000000037090044, y: -0.000000042548958, z: 0.17672247, w: 0.98426074}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Base AlienTail4
+      parentName: Base AlienTail3
+      position: {x: -0.1104182, y: 0, z: -1.4551915e-13}
+      rotation: {x: 0.000000011770984, y: -0.000000029336551, z: 0.086020656, w: 0.99629337}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
