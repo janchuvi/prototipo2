@@ -50,7 +50,6 @@ public class AstronautJump : MonoBehaviour {
         {
             main.startLifetime = 16f;
             main.startSpeed = 5.5f;
-            Debug.Log("ground");
         }
     }
     private void OnCollisionExit(Collision collision)

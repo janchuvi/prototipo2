@@ -4,15 +4,27 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class PointsScript : MonoBehaviour {
-    public int points;
-    public Text pointsText;
-    // Use this for initialization
-    void Start () {
-		
-	}
 	
-	// Update is called once per frame
-	void Update () {
+    int points;
+    public Text pointsText;
+
+    void Start() {
+		Events.AddPoints += AddPoints;
+	}
+	void OnEnable() {
+		points = 0;
+		SetPoints ();
+	}
+	void OnDestroy() {
+		Events.AddPoints -= AddPoints;
+	}
+
+	void AddPoints (int _points) {
+		points += _points;
+		SetPoints ();
+	}
+	void SetPoints()
+	{
 		pointsText.text = "Points: "+ points.ToString();
 	}
 }

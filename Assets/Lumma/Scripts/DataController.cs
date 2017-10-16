@@ -29,10 +29,10 @@ public class DataController : MonoBehaviour {
         yield return new WaitForSeconds(time);
         SceneManager.LoadScene("MoonSelection");
         nada = true;
-        Debug.Log("papas");
+		Debug.Log("timeOut: " + time + " goto MoonSelection");
     }
 
-     void Update()
+    void Update()
     {
         Scene currentScene = SceneManager.GetActiveScene();
 
@@ -46,7 +46,7 @@ public class DataController : MonoBehaviour {
         }
         else if (currentScene.name == "Showcase" )
         {
-                StartCoroutine(Game());
+            StartCoroutine(Game());
         }
         else if(currentScene.name == "Game" || currentScene.name == "Tutorial" || currentScene.name == "MoonSelection")
         {

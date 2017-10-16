@@ -23,17 +23,17 @@ public class Geisers : MonoBehaviour {
         caer = false;
         BoxCollider collider = this.GetComponent<BoxCollider>(); ;
         i = Random.Range(0, 21);
-        //    Debug.Log(i);
         var main = particle.main;
-        if (i >= 0 && i <= 10)
+        if (i < 10)
         {
             main.startLifetime = 5.4f;
             collider.enabled = true;
         }
-        if (i >= 11 && i <= 20) { 
-            main.startLifetime = 0;
-        collider.enabled = false;
-    }
+        else
+		{
+	        main.startLifetime = 0;
+	        collider.enabled = false;
+	    }
         StartCoroutine(wait());
     }
     IEnumerator wait()

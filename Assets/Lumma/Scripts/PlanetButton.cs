@@ -23,13 +23,13 @@ public class PlanetButton : ClickeableButton
             controller.SetSelectedPlanet(Planet);
             particle.SetActive(true);
 
-            Debug.Log("lolo");
+			Debug.Log("Planet1");
         }
         else if (Input.GetKeyDown(KeyCode.Keypad4) && this.gameObject.name == "Planet3")
         {
             controller.SetSelectedPlanet(Planet);
             particle.SetActive(true);
-            Debug.Log("lolo");
+			Debug.Log("Planet3");
         }
     }
     protected override void OnClick()
@@ -37,7 +37,7 @@ public class PlanetButton : ClickeableButton
         controller.SetSelectedPlanet(Planet);
         particle.SetActive(true);
 
-        Debug.Log("lolo");
+		Debug.Log("OnClick");
       //  SceneManager.LoadScene("Game");
     }
 

@@ -83,7 +83,8 @@ public class VitruviusVideo
         }
         videoRecorder.Path = videoPath;
 
-        playbackSlider.videoPlayer = videoPlayer;
+		if(playbackSlider != null && videoPlayer != null)
+       		playbackSlider.videoPlayer = videoPlayer;
 
         buttonRecord.onClick.AddListener(OnRecord);
         buttonCompress.onClick.AddListener(OnCompress);

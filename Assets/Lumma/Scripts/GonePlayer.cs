@@ -70,7 +70,7 @@ public class GonePlayer : MonoBehaviour {
     {
         avaterring.models[0].updateModel = false;
         fui = true;
-        Debug.Log("byebye");
+      //  Debug.Log("byebye");
         yield return new WaitForSeconds(10);
         cambiar = true;
         

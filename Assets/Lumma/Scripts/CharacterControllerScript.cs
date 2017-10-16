@@ -6,7 +6,10 @@ using System.Linq;
 
 public class CharacterControllerScript : MonoBehaviour {
 
-    
+	public GameObject moon;
+	public GameObject encelado;
+
+	public GameCamera gameCamera;
     public GameObject[] stuff;
    public  DataController controller;
     public Transform male;
@@ -31,6 +34,9 @@ public class CharacterControllerScript : MonoBehaviour {
     }
 
     void Start() {
+		moon.SetActive (false);
+		encelado.SetActive (false);
+
         controller = GameObject.Find("DataController").GetComponent<DataController>();
         objetives[0].SetActive(false);
         objetives[1].SetActive(false);
@@ -38,9 +44,9 @@ public class CharacterControllerScript : MonoBehaviour {
         //  
         stuff[0] = GameObject.Find("Player1");
         stuff[1] = GameObject.Find("Player2");
-        stuff[2] = GameObject.Find("TerrainMars");
-        stuff[3] = GameObject.Find("TerrainMoon");
-        stuff[4] = GameObject.Find("TerrainEncelado");
+       // stuff[2] = GameObject.Find("TerrainMars");
+     //   stuff[3] = GameObject.Find("TerrainMoon");
+      //  stuff[4] = GameObject.Find("TerrainEncelado");
         stuff[5] = GameObject.Find("PlayerScateboard");
         stuff[6] = GameObject.Find("GameObjectRover");
         stuff[7] = GameObject.Find("Player3");
@@ -48,9 +54,9 @@ public class CharacterControllerScript : MonoBehaviour {
        
         stuff[0].SetActive(false);
         stuff[1].SetActive(false);
-        stuff[2].SetActive(false);
-        stuff[3].SetActive(false);
-        stuff[4].SetActive(false);
+       // stuff[2].SetActive(false);
+      //  stuff[3].SetActive(false);
+      //  stuff[4].SetActive(false);
        // stuff[5].SetActive(false);
         //stuff[6].SetActive(false);
         stuff[7].SetActive(false);
@@ -104,18 +110,19 @@ public class CharacterControllerScript : MonoBehaviour {
         }
         if (controller.planetSelected.name == "Terrain1")
         {//mars
-            stuff[2].SetActive(true);
+        //    stuff[2].SetActive(true);
            
         }
         else if(controller.planetSelected.name == "Terrain2")
         {//moon
 
             RenderSettings.skybox = sky[0];
-              stuff[3].SetActive(true);
-            stuff[6].SetActive(true);
-            stuff[5].SetActive(false);
+			moon.SetActive (true);
+         //     stuff[3].SetActive(true);
+         //   stuff[6].SetActive(true);
+         //   stuff[5].SetActive(false);
             StartCoroutine(ObjectiveMoon());
-            Physics.gravity = new Vector3(0, -30.0F, 0);
+            Physics.gravity = new Vector3(0, -100.0F, 0);
 
         }
         else if (controller.planetSelected.name == "Terrain3")
@@ -125,7 +132,7 @@ public class CharacterControllerScript : MonoBehaviour {
             //  waist.transform.eulerAngles = new Vector3(0,90,0);
             player.turbine[0] = GameObject.Find("Turbine");
             player.turbine[1] = GameObject.Find("Turbine2");
-            stuff[4].SetActive(true);
+         //   stuff[4].SetActive(true);
             stuff[5].SetActive(true);
             stuff[6].SetActive(false);
             legs[0].transform.eulerAngles = new Vector3(0, 0, 90);
@@ -153,7 +160,11 @@ public class CharacterControllerScript : MonoBehaviour {
             stuff[0].GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeRotation;
             stuff[1].GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeRotation;
         }
+		gameCamera.Init (player);
+		print("controller.planetSelected.name_: " + controller.planetSelected.name);
     }
+
+
 
     // Update is called once per frame
   
