@@ -12,10 +12,12 @@ public class GameCamera : MonoBehaviour {
 	void Start()
 	{
 		Events.SceneObjectActive += SceneObjectActive;
+		Events.OnTeleport += OnTeleport;
 	}
 	void OnDestroy()
 	{
 		Events.SceneObjectActive -= SceneObjectActive;
+		Events.OnTeleport -=  OnTeleport;
 	}
 	void SceneObjectActive(GameObject go)
 	{
@@ -26,10 +28,23 @@ public class GameCamera : MonoBehaviour {
 		this.player = _player;
 		myCamera.transform.localPosition = new Vector3(0,2.2f,0);
 	}
+	bool isTeleporting;
+	void OnTeleport()
+	{
+		isTeleporting = true;
+		Invoke ("ResetTeleport", 0.5f);
+	}
+	void ResetTeleport()
+	{
+		isTeleporting = false;
+	}
 	void Update()
 	{
 		if (player == null)
 			return;
+		if (isTeleporting) {
+			transform.position = player.transform.position;
+		} else
 		if (sceneObjectActive == null) {
 			myCamera.transform.LookAt (player.head.transform);
 		

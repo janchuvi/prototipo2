@@ -5,9 +5,17 @@ using UnityEngine.UI;
 using System.Linq;
 
 public class CharacterControllerScript : MonoBehaviour {
-
+	public planets planet;
+	public enum planets{
+		MOON,
+		ENCELADO
+	}
 	public GameObject moon;
 	public GameObject encelado;
+
+	public Player player1;
+	public Player player2;
+	public Player player3;
 
 	public GameCamera gameCamera;
     public GameObject[] stuff;
@@ -41,33 +49,15 @@ public class CharacterControllerScript : MonoBehaviour {
         objetives[0].SetActive(false);
         objetives[1].SetActive(false);
         stuff = new GameObject[8];
-        //  
-        stuff[0] = GameObject.Find("Player1");
-        stuff[1] = GameObject.Find("Player2");
-       // stuff[2] = GameObject.Find("TerrainMars");
-     //   stuff[3] = GameObject.Find("TerrainMoon");
-      //  stuff[4] = GameObject.Find("TerrainEncelado");
-        stuff[5] = GameObject.Find("PlayerScateboard");
-        stuff[6] = GameObject.Find("GameObjectRover");
-        stuff[7] = GameObject.Find("Player3");
-
        
-        stuff[0].SetActive(false);
-        stuff[1].SetActive(false);
-       // stuff[2].SetActive(false);
-      //  stuff[3].SetActive(false);
-      //  stuff[4].SetActive(false);
-       // stuff[5].SetActive(false);
-        //stuff[6].SetActive(false);
-        stuff[7].SetActive(false);
-        //     for (int i = 0; i < stuff.Length; i++){
-        //       stuff[i].SetActive(false);
-
-        // }
+		player1.gameObject.SetActive (false);
+		player2.gameObject.SetActive (false);
+		player3.gameObject.SetActive (false);
 
         if (controller.characterSelected.name == "Player1")
         {
-            stuff[0].SetActive(true);
+			player = player1;
+			player.gameObject.SetActive (true);
             legs = new GameObject[4];
             legs[0] = GameObject.Find("Base HumanRThigh");
             legs[1] = GameObject.Find("Base HumanLThigh");
@@ -75,19 +65,14 @@ public class CharacterControllerScript : MonoBehaviour {
             legs[3] = GameObject.Find("Base HumanLCalf");
             male = GameObject.Find("PreBase").transform.GetChild(0);
             //   male = GameObject.Find("Male");
-            stuff[5] = GameObject.Find("PlayerScateboard");
-            stuff[6] = GameObject.Find("GameObjectRover");
-            player = stuff[0].GetComponent<Player>();
         }
         else if (controller.characterSelected.name == "Player2")
         {
-            stuff[1].SetActive(true);
+			player = player2;
+			player.gameObject.SetActive (true);
             legs = new GameObject[4];
-            player = stuff[1].GetComponent<Player>();
             male = GameObject.Find("PreBase").transform.GetChild(0);
           //  male = GameObject.Find("Male");
-            stuff[5] = GameObject.Find("PlayerScateboard");
-            stuff[6] = GameObject.Find("GameObjectRover");
             legs[0] = GameObject.Find("Base AlienRThigh");
             legs[1] = GameObject.Find("Base AlienLThigh");
             legs[2] = GameObject.Find("Base AlienRCalf");
@@ -96,8 +81,8 @@ public class CharacterControllerScript : MonoBehaviour {
         }
         else if (controller.characterSelected.name == "Player3")
         {
-            stuff[7].SetActive(true);
-            player = stuff[7].GetComponent<Player>();
+			player = player3;
+			player.gameObject.SetActive (true);
             legs = new GameObject[4];
             legs[0] = GameObject.Find("Base HumanRThigh");
             legs[1] = GameObject.Find("Base HumanLThigh");
@@ -105,8 +90,6 @@ public class CharacterControllerScript : MonoBehaviour {
             legs[3] = GameObject.Find("Base HumanLCalf");
             male = GameObject.Find("PreBase").transform.GetChild(0);
             //    male = GameObject.Find("Male");
-            stuff[5] = GameObject.Find("PlayerScateboard");
-            stuff[6] = GameObject.Find("GameObjectRover");
         }
         if (controller.planetSelected.name == "Terrain1")
         {//mars
@@ -115,26 +98,22 @@ public class CharacterControllerScript : MonoBehaviour {
         }
         else if(controller.planetSelected.name == "Terrain2")
         {//moon
-
+			planet = planets.MOON;
             RenderSettings.skybox = sky[0];
 			moon.SetActive (true);
-         //     stuff[3].SetActive(true);
-         //   stuff[6].SetActive(true);
-         //   stuff[5].SetActive(false);
+
             StartCoroutine(ObjectiveMoon());
             Physics.gravity = new Vector3(0, -100.0F, 0);
 
         }
         else if (controller.planetSelected.name == "Terrain3")
         {//enceladus
-         //   anim.Play();
+			planet = planets.ENCELADO;
+			encelado.SetActive (true);
             RenderSettings.skybox = sky[1];
             //  waist.transform.eulerAngles = new Vector3(0,90,0);
             player.turbine[0] = GameObject.Find("Turbine");
             player.turbine[1] = GameObject.Find("Turbine2");
-         //   stuff[4].SetActive(true);
-            stuff[5].SetActive(true);
-            stuff[6].SetActive(false);
             legs[0].transform.eulerAngles = new Vector3(0, 0, 90);
             legs[1].transform.eulerAngles = new Vector3(0, 0, 90);
             legs[0].transform.localRotation = Quaternion.Euler(60, -200f, -20);
@@ -156,16 +135,13 @@ public class CharacterControllerScript : MonoBehaviour {
             }
             StartCoroutine(ObjectiveEnceladus());
             Physics.gravity = new Vector3(0, -20.0F, 0);
-            stuff[7].GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeRotation;
-            stuff[0].GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeRotation;
-            stuff[1].GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeRotation;
+
+         	player1.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeRotation;
+			player2.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeRotation;
+			player3.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeRotation;
         }
+		player.Init (this);
 		gameCamera.Init (player);
-		print("controller.planetSelected.name_: " + controller.planetSelected.name);
     }
-
-
-
-    // Update is called once per frame
   
 }

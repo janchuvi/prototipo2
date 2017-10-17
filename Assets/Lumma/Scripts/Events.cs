@@ -7,5 +7,7 @@ public static class Events {
 	public static System.Action<string> OnLog = delegate { };
 	public static System.Action<int> AddPoints = delegate { };
 	public static System.Action<GameObject> SceneObjectActive = delegate { };
+	public static System.Action OnTeleport = delegate { };
+
 
 }
